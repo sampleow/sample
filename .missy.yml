@@ -1,0 +1,7 @@
+name: quote
+environment:
+  - envName: BITX_URL
+    defaultValue: https://api.mybitx.com/api/1/orderbook?pair=XBTZAR
+    internalName: bitx.orderbook.url
+    mandatory: false
+    usage: "please provide the bitx orderbook api url"

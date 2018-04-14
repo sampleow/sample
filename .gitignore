@@ -1,0 +1,34 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# idea
+.idea
+*iml
+dist
+
+# vendor folder created by go dep
+vendor/
+
+# lets add Gopkg.lock to .gitignore to ensure having latest version of dependencies during CI builds
+Gopkg.lock
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Ignore macOS finder BS
+.DS_store
+
+# Ropeproject is a python refactory library, let's ignore its hidden folder
+.ropeproject
+
+# binary
+quote
+

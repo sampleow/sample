@@ -3,14 +3,11 @@
 [[constraint]]
   branch = "master"
   name = "github.com/microdevs/missy"
-  #version = "0.2.0"
 
 [[constraint]]
   branch = "master"
   name = "github.com/onsi/ginkgo"
-#  version = "1.4.0"
 
 [[constraint]]
   branch = "master"
   name = "github.com/onsi/gomega"
-#  version = "1.2.0"
